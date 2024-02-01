@@ -1,0 +1,36 @@
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+.edit-logo{
+    justify-self: flex-end;
+}
+.commands{
+    align-self: flex-end;
+}
+.task-title{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 5px;
+}
+.task-description, .task-status{
+    padding: 5px;
+}
+.task-description{
+    width: calc(100%-30px);
+}
+textarea{
+    width: 100%;
+}
+.task-title > input[type="text"]{
+    font-size: 20px;
+    font-weight: bold;
+}

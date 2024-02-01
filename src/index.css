@@ -1,0 +1,81 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+.login-form>input,
+button {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+
+}
+
+#username,
+#password {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#username:hover,
+#password:hover,
+#username:focus,
+#password:focus {
+    background-color: whitesmoke;
+}
+
+button[type="submit"] {
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 170, 255);
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+    background-color: rgb(0, 120, 215);
+}
+
+#registration-container {
+    text-align: center;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom:1px solid black
+}
